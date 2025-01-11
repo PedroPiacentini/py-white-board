@@ -1,5 +1,8 @@
 class item:
     def __init__(self, name: str, price: float, quantity=0):
+        assert price >= 0
+        assert quantity >= 0
+
         self.name = name
         self.price = price
         self.quantity = quantity
