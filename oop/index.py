@@ -1,6 +1,6 @@
 class item:
     def __init__(self, name: str, price: float, quantity=0):
-        assert price >= 0
+        assert price >= 0, f"Price {price} is not greater than zero!"
         assert quantity >= 0
 
         self.name = name
