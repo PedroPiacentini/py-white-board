@@ -1,6 +1,7 @@
 from item import Item
-from phone import Phone
 
-phone1 = Phone("phonephone", 444, 44, 4)
+item1 = Item("MyItem", 750)
+item1.name = "OherItem"
 
-print(Item.all)
+print(item1.all)
+#encapsulations
